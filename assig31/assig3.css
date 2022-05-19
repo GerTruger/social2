@@ -1,0 +1,158 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: aquamarine;
+  height: 100%;
+}
+
+li {
+  padding: 20px;
+  margin-left: 80%;
+  list-style-type: none;
+}
+
+lihover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.blog {
+  background: #e17b77;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+}
+
+.blog i {
+  -webkit-transform: translate(47%, 47%);
+          transform: translate(47%, 47%);
+}
+
+.blog:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.twitter {
+  background-color: #00aced;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+}
+
+.twitter i {
+  -webkit-transform: translate(40%, 40%);
+          transform: translate(40%, 40%);
+}
+
+.twitter:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+}
+
+.linkedin i {
+  -webkit-transform: translate(47%, 47%);
+          transform: translate(47%, 47%);
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  -webkit-transition-property: width 400px;
+  transition-property: width 400px;
+  -webkit-transition-duration: 4s;
+          transition-duration: 4s;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.facebook {
+  background-color: #3b5998;
+  width: 5%;
+  height: 50px;
+  float: right;
+  text-align: center;
+}
+
+.facebook i {
+  -webkit-transform: translate(40%, 40%);
+          transform: translate(40%, 40%);
+}
+
+.facebook:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+.github {
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+}
+
+.github i {
+  -webkit-transform: translate(-40%, -40%);
+          transform: translate(-40%, -40%);
+}
+
+.github:hover {
+  cursor: pointer;
+  -webkit-animation-name: social;
+          animation-name: social;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-timing-function: revert, ease-in-out;
+          animation-timing-function: revert, ease-in-out;
+}
+
+@-webkit-keyframes social {
+  from {
+    margin-left: 100%;
+    width: 30%;
+  }
+  to {
+    margin-left: 0%;
+    width: 30%;
+  }
+}
+
+@keyframes social {
+  from {
+    margin-left: 100%;
+    width: 30%;
+  }
+  to {
+    margin-left: 0%;
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=assig3.css.map */

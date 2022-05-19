@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  background-color: aquamarine;
+  height: 100%;
+}
+li {
+  padding: 20px;
+  margin-left: 80%;
+  list-style-type: none;
+  &hover {
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: social;
+  }
+}
+.blog {
+  background: #e17b77;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  i {
+    transform: translate(47%, 47%);
+  }
+  &:hover {
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: social;
+  }
+}
+.twitter {
+  background-color: #00aced;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  i {
+    transform: translate(40%, 40%);
+  }
+  &:hover {
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: social;
+  }
+}
+.linkedin {
+  background-color: #007bb6;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  i {
+    transform: translate(47%, 47%);
+  }
+  &:hover {
+    cursor: pointer;
+    transition-property: width 400px;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+}
+.facebook {
+  background-color: #3b5998;
+  width: 5%;
+  height: 50px;
+  float: right;
+  text-align: center;
+  i {
+    transform: translate(40%, 40%);
+  }
+  &:hover {
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: social;
+  }
+}
+.github {
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  i {
+    transform: translate(-40%, -40%);
+  }
+  &:hover {
+    cursor: pointer;
+
+    animation-name: social;
+    animation-duration: 0.6s;
+    animation-timing-function: revert, ease-in-out;
+  }
+}
+@keyframes social {
+  from {
+    margin-left: 100%;
+    width: 30%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 30%;
+  }
+}
